@@ -163,4 +163,17 @@ main {
     font-size: 1.1rem;
   }
 }
+.username {
+  font-size: 2rem;
+  font-weight: 600;
+}
 
+.username > span {
+  color: var(--primary);
+}
+
+@media screen and (max-width: 1250px) {
+  .username {
+    font-size: 1.5rem;
+  }
+}
