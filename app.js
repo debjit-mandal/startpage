@@ -28,6 +28,11 @@ const CARDS = [
     link: "https://github.com/debjit-mandal",
   },
   {
+    name: "Facebook",
+    icon: "ri-facebook-fill",
+    link: "https://facebook.com.iamdebjitmandal",
+  },
+  {
     name: "Instagram",
     icon: "ri-instagram-fill",
     link: "https://www.instagram.com/iamdebjitmandal",
