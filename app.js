@@ -30,7 +30,7 @@ const CARDS = [
   {
     name: "Facebook",
     icon: "ri-facebook-fill",
-    link: "https://facebook.com.iamdebjitmandal",
+    link: "https://facebook.com/iamdebjitmandal",
   },
   {
     name: "Instagram",
