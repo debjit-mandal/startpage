@@ -85,7 +85,7 @@ main {
   text-decoration: none;
 
   margin: 1.2rem;
-  padding: 4rem 5rem;
+  padding: 4rem 8rem;
 
   background-color: var(--background-light);
   border-radius: 15px;
@@ -147,33 +147,4 @@ main {
 
 #cardContainer {
   margin-top: 17vh;
-}
-
-@media screen and (max-width: 1250px) {
-  .card {
-    padding: 2rem 4rem;
-  }
-
-  .card__icon {
-    font-size: 2rem;
-    width: 64px;
-  }
-
-  .card__name {
-    font-size: 1.1rem;
-  }
-}
-.username {
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-.username > span {
-  color: var(--primary);
-}
-
-@media screen and (max-width: 1250px) {
-  .username {
-    font-size: 1.5rem;
-  }
 }
