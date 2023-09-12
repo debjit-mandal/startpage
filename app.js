@@ -18,14 +18,19 @@ const CARDS = [
     link: "https://www.youtube.com",
   },
   {
-    name: "Discord",
-    icon: "ri-discord-fill",
-    link: "https://canary.discord.com/channels/@me",
-  },
-  {
     name: "GitHub",
     icon: "ri-github-fill",
     link: "https://github.com/debjit-mandal",
+  },
+  {
+    name: "Website",
+    icon: "ri-global-fill",
+    link: "https://debjit-mandal.is-a.dev",
+  },
+  {
+    name: "Gmail",
+    icon: "ri-mail-fill",
+    link: "https://mail.google.com/mail/u/0/#inbox",
   },
   {
     name: "Facebook",
@@ -63,14 +68,9 @@ const CARDS = [
     link: "https://web.whatsapp.com/",
   },
   {
-    name: "Gmail",
-    icon: "ri-mail-fill",
-    link: "https://mail.google.com/mail/u/0/#inbox",
-  },
-  {
-    name: "Website",
-    icon: "ri-global-fill",
-    link: "https://debjit-mandal.is-a.dev",
+    name: "Discord",
+    icon: "ri-discord-fill",
+    link: "https://canary.discord.com/channels/@me",
   },
   {
     name: "GitHub Page",
