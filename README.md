@@ -1,5 +1,5 @@
 # Startpage
-Live at https://startpage.debjit-mandal.com
+Live at https://debjit-mandal.github.io/startpage/
 
 
 It is a fork from https://github.com/imreyesjorge/root-startpage
