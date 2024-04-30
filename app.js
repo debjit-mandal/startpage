@@ -20,12 +20,12 @@ const CARDS = [
   {
     name: "GitHub",
     icon: "ri-github-fill",
-    link: "https://github.com/debjit-mandal",
+    link: "https://github.com/",
   },
   {
     name: "Website",
     icon: "ri-global-fill",
-    link: "https://debjit-mandal.com",
+    link: "https://debjit-mandal.is-a.dev",
   },
   {
     name: "Gmail",
@@ -35,17 +35,17 @@ const CARDS = [
   {
     name: "Facebook",
     icon: "ri-facebook-fill",
-    link: "https://facebook.com/iamdebjitmandal",
+    link: "https://facebook.com/",
   },
   {
     name: "Instagram",
     icon: "ri-instagram-fill",
-    link: "https://www.instagram.com/iamdebjitmandal",
+    link: "https://www.instagram.com/",
   },
   {
     name: "Twitter",
     icon: "ri-twitter-fill",
-    link: "https://twitter.com/iamdebjitmandal",
+    link: "https://twitter.com/",
   },
   {
     name: "Telegram",
@@ -60,7 +60,7 @@ const CARDS = [
   {
     name: "Linkedin",
     icon: "ri-linkedin-fill",
-    link: "https://linkedin.com/in/iamdebjitmandal",
+    link: "https://linkedin.com/in/",
   },
   {
     name: "Whatsapp",
@@ -76,7 +76,7 @@ const CARDS = [
     name: "GitHub Page",
     icon: "ri-github-fill",
     link: "https://debjit-mandal.github.io",
-  }
+  },
 ];
 
 /* -------------------------------------------------------- */
