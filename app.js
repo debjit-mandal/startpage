@@ -20,7 +20,7 @@ const CARDS = [
   {
     name: "GitHub",
     icon: "ri-github-fill",
-    link: "https://github.com/",
+    link: "https://github.com/debjit-mandal",
   },
   {
     name: "Website",
