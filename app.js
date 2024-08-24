@@ -43,9 +43,9 @@ const CARDS = [
     link: "https://www.instagram.com/",
   },
   {
-    name: "Twitter",
-    icon: "ri-twitter-fill",
-    link: "https://twitter.com/",
+    name: "X",
+    icon: "ri-twitter-x-fill",
+    link: "https://x.com/",
   },
   {
     name: "Telegram",
@@ -120,8 +120,14 @@ const updateDate = () => {
   const completeDate = new Date();
 
   // Time Variables
-  let currentHour = formatDigit(completeDate.getHours());
+  let currentHour = completeDate.getHours();
   let currentMinute = formatDigit(completeDate.getMinutes());
+  let period = currentHour >= 12 ? 'PM' : 'AM';
+
+  // Convert 24-hour format to 12-hour format
+  currentHour = currentHour % 12;
+  currentHour = currentHour ? currentHour : 12; // the hour '0' should be '12'
+  currentHour = formatDigit(currentHour);
 
   // Date Variables
   let currentDay = completeDate.getDay();
@@ -130,7 +136,7 @@ const updateDate = () => {
   let currentYear = completeDate.getFullYear();
 
   // Update the Time
-  currentTime.innerHTML = `${currentHour}:${currentMinute}`;
+  currentTime.innerHTML = `${currentHour}:${currentMinute} ${period}`;
 
   // Update the Date
   currentDate.innerHTML = `${DAYS[currentDay]} ${currentNumber}, ${MONTHS[currentMonth]} ${currentYear}`;

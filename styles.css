@@ -145,6 +145,11 @@ main {
   transition: 0.1s;
 }
 
+.fab.fa-x-twitter {
+  font-size: 24px;
+  color: #000000; /* Adjust color if needed */
+}
+
 #cardContainer {
   margin-top: 17vh;
 }
