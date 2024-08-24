@@ -58,6 +58,11 @@ const CARDS = [
     link: "https://fosstodon.org/@iamdebjitmandal",
   },
   {
+    name: "Reddit",
+    icon: "ri-reddit-fill",
+    link: "https://reddit.com",
+  },
+  {
     name: "Linkedin",
     icon: "ri-linkedin-fill",
     link: "https://linkedin.com/in/",
